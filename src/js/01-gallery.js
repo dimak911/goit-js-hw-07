@@ -16,6 +16,7 @@ function createGalleryMarkup(arrayOfItems) {
           class="gallery__image"
           src="${preview}"
           data-source="${original}"
+          loading="lazy"
           alt="${description}"
         />
       </a>
